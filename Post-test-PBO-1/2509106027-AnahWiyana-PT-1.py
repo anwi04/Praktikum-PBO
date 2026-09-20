@@ -44,8 +44,7 @@ class ProdukKpop:
 
 
 class Album(ProdukKpop):
-    def __init__(self, idProduk, namaProduk, harga, stok,
-                 artis, versiAlbum, jumlahLagu):
+    def __init__(self, idProduk, namaProduk, harga, stok, artis, versiAlbum, jumlahLagu):
 
         super().__init__(idProduk, namaProduk, harga, stok)
 
@@ -61,8 +60,7 @@ class Album(ProdukKpop):
 
 
 class Merchandise(ProdukKpop):
-    def __init__(self, idProduk, namaProduk, harga, stok,
-                 jenisMerch, ukuran, bahan):
+    def __init__(self, idProduk, namaProduk, harga, stok, jenisMerch, ukuran, bahan):
 
         super().__init__(idProduk, namaProduk, harga, stok)
 
